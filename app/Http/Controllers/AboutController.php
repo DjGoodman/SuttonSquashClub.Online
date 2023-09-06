@@ -4,23 +4,25 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MembershipController extends Controller
+class AboutController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $pageTitle = "Memberships";
-        $pageDescription = "Membership Fees and perks";
-        return view('join', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
+        $pageTitle = "About";
+        $pageDescription = "Find out about Sutton Squash club.
+        Sutton squash club is based at Lammas Leisure Centre in Sutton in Ashfield.
+        The club plays in the Nottinghamshire Squash League and is affilated with England Squash.";
+        return view('about', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
-    public function juniors()
+    public function calendar()
     {
-        $pageTitle = "Junior Squash";
-        $pageDescription = "Sport information about junior Squash for kids and young adults.";
-        return view('juniors', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
+        $pageTitle = "Club Calendar";
+        $pageDescription = "Find out about events at Sutton Squash club.";
+        return view('calendar', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
     /**

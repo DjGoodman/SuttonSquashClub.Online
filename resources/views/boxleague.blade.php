@@ -39,12 +39,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="row">
-                <div class="panel">
+            <div class="row col-md-12" style="height: 500px; width:100%">
                     <x-sportyhq />
-                </div>
             </div>
         </div>
         </div>

@@ -1,4 +1,4 @@
-@props(['pageTitle','pageDescription'])
+@props(['pageTitle', 'pageDescription'])
 
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{$pageTitle}} - Sutton Squash Club</title>
+    <title>{{ $pageTitle }} - Sutton Squash Club</title>
     <meta name="description" content="{{ $pageDescription }}">
     <link rel="canonical" href="{{ url()->current() }}" />
 
@@ -52,8 +52,8 @@
     <meta name="msapplication-config" content="https://suttonsquash.club/img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0"
-            nonce="2GkTszif"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0"
+        nonce="2GkTszif"></script>
 </head>
 
 <body>
@@ -62,25 +62,29 @@
             <img src="{{ asset('assets/img/logo-no-bg-w.png') }}" itemprop="logo" width="30" height="30"
                 class="d-inline-block align-top" alt="Sutton Squash Logo">
             Sutton Squash Club</a>
-            <button type="button" class="navbar-toggler border" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" style="color: rgb(255, 255, 255, 1)">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/calendar">Calendar</a></li>
-                    <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
-                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <li class="dropdown-item"><a class="nav-link" href="/join">Join Us</a></li>
-                            <li class="dropdown-item"><a class="nav-link" href="/juniors">Juniors</a></li>
-                            <li class="dropdown-item"><a class="nav-link" href="/boxleague">Sutton and Mansfield League</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+        <button type="button" class="navbar-toggler border" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" style="color: rgb(255, 255, 255, 1)">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/calendar">Calendar</a></li>
+                <li class="nav-item"><a class="nav-link" href="/social">Social</a></li>
+                <li class="nav-item"><a class="nav-link" href="/boxleague">Box Leagues</a></li>
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="background-color: #34bdeb;" aria-labelledby="navbarDropdown">
+                        <li class="dropdown-item"><a class="nav-link" href="/join">Join Us</a></li>
+                        <li class="dropdown-item"><a class="nav-link" href="/juniors">Juniors</a></li>
+                        <li class="dropdown-item"><a class="nav-link" href="/boxleague">Sutton and Mansfield League</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="container body-content">
         {{ $content }}
@@ -89,7 +93,8 @@
     <footer class="footer fixed-bottom" id="cookieBanner">
         <div class="cookie-banner">
             <span class="">We use cookies to improve your website experience
-                <a type="button" href="https://www.itgovernance.eu/en-ie/eu-general-data-protection-regulation-gdpr-ie"
+                <a type="button"
+                    href="https://www.itgovernance.eu/en-ie/eu-general-data-protection-regulation-gdpr-ie"
                     target="_blank" class="btn bg-gray-300">Learn more</a>
                 <a type="button" class="btn bg-gray-300" id="cookieButton">Ok, thanks</a>
             </span>

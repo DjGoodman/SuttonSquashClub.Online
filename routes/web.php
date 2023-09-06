@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\contact;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MembershipController;
@@ -25,8 +26,14 @@ Route::get('/test', function () {
 });
 
 Route::get('/contact', [ContactController::class, 'index']);
-
+Route::get('/about', [AboutController::class, 'index']);
+Route::get('/calendar', [AboutController::class, 'calendar']);
+Route::get('/about/calendar', [AboutController::class, 'calendar']);
 Route::get('/social', [SocialController::class, 'index']);
-Route::get('social/boxleague', [SocialController::class, 'boxleague']);
-
-Route::get('Membership/join', [MembershipController::class, 'index']);
+Route::get('/social/boxleague', [SocialController::class, 'boxleague']);
+Route::get('/boxleague', [SocialController::class, 'boxleague']);
+Route::get('/membership/join', [MembershipController::class, 'index']);
+Route::get('/membership', [MembershipController::class, 'index']);
+Route::get('/join', [MembershipController::class, 'index']);
+Route::get('/juniors', [MembershipController::class, 'juniors']);
+Route::get('/membership/juniors', [MembershipController::class, 'juniors']);
