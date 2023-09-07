@@ -39,17 +39,17 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="jquery.bs.gdpr.cookies.js"></script>
-    <link rel="stylesheet" href="https://suttonsquash.club/shared/custom.css">
+    <link rel="stylesheet" href="{{ asset('css/custom.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- favicon stuff -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://suttonsquash.club/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://suttonsquash.club/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://suttonsquash.club/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="https://suttonsquash.club/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="https://suttonsquash.club/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="https://suttonsquash.club/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/img/favicon/site.webmanifest') }}">
+    <link rel="mask-icon" href="{{ asset('assets/img/favicon/safari-pinned-tab.svg') }}" color="#5bbad5">
+    <link rel="shortcut icon" href="{{ asset('assets/img/favicon/favicon.ico') }}">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="https://suttonsquash.club/img/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="{{ asset('assets/img/favicon/browserconfig.xml') }}">
     <meta name="theme-color" content="#ffffff">
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0"
@@ -71,6 +71,7 @@
                 <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
                 <li class="nav-item"><a class="nav-link" href="/calendar">Calendar</a></li>
+                <li class="nav-item"><a class="nav-link" href="/membership/join">Memberships</a></li>
                 <li class="nav-item"><a class="nav-link" href="/social">Social</a></li>
                 <li class="nav-item"><a class="nav-link" href="/boxleague">Box Leagues</a></li>
                 <li class="nav-item dropdown">
@@ -90,23 +91,15 @@
         {{ $content }}
 
     </div>
-    <footer class="footer fixed-bottom" id="cookieBanner">
-        <div class="cookie-banner">
-            <span class="">We use cookies to improve your website experience
-                <a type="button"
-                    href="https://www.itgovernance.eu/en-ie/eu-general-data-protection-regulation-gdpr-ie"
-                    target="_blank" class="btn bg-gray-300">Learn more</a>
-                <a type="button" class="btn bg-gray-300" id="cookieButton">Ok, thanks</a>
-            </span>
-        </div>
-    </footer>
+    <x-cookiebanner>
+    </x-cookiebanner>
     <footer>
         <div class="container container-fluid">
             <p>Follow us on social media:</p>
             <div>
                 <a href="https://www.facebook.com/suttonsquash/" class="fa fa-facebook"></a>
                 <a href="https://www.instagram.com/sutton_squash_club/" class="fa fa-instagram"></a>
-                <a href="https://www.Twitter.com/squash_sutton/" class="fa fa-twitter-square"></a>
+                <a href="https://www.Twitter.com/squash_sutton/" class="fa fa-twitter"></a>
                 <p>&copy; <?php echo date('Y'); ?> - Sutton Squash Club</p>
             </div>
         </div>
@@ -115,21 +108,6 @@
 
 </body>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        if (document.cookie.indexOf('visited=true') == -1) {
-            $('#cookieBanner').show();
-        } else {
-            $('#cookieBanner').hide();
-        }
-    });
 
-    $('#cookieButton').click(function() {
-        var fifteenDays = 1000 * 60 * 60 * 24 * 15;
-        var expires = new Date((new Date()).valueOf() + fifteenDays);
-        document.cookie = "visited=true;expires=" + expires.toUTCString();
-        $('#cookieBanner').hide();
-    });
-</script>
 
 </html>

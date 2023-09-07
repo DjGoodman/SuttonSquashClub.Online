@@ -4,7 +4,7 @@
             <script async src="//www.instagram.com/embed.js"></script>
 
         <div class="jumbotron text-center container container-fluid">
-            <h1>Sutton Squash Club</h1>
+            <h1>Sutton in Ashfield</h1>
             <h1>Squash Club</h1>
             <p class="lead">Looking for Sponsors.
                 Get in touch if you wish to sponsor us!</p>

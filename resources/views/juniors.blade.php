@@ -8,11 +8,14 @@
             <div class="row">
                 <div class="card-deck">
                     <div class="card">
-                        <p>
-                            We currently have a junior session running on saturday mornings at sutton community accademy.
-                            The Junior sessions are run by our coach George Taylor.
-                            Contact George on 07496752757 or email us for more info.
-                        </p>
+                        <div class="card-body text-center">
+                            <p>
+                                We currently have a junior session running on saturday mornings at sutton community
+                                accademy.
+                                The Junior sessions are run by our coach George Taylor.
+                                Contact George on 07496752757 or email us for more info.
+                            </p>
+                        </div>
                     </div>
 
                 </div>
