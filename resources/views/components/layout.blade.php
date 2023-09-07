@@ -16,7 +16,7 @@
   "@type": "SportsTeam",
   "name": "Sutton Squash Club",
   "url": "SuttonSquash.club",
-  "logo": "https://suttonsquash.club/img/logo.jpg",
+  "logo": "{{ asset('assets/img/logo.jpg')}}",
   "description": "Sutton Squash Club operates out of the Lammas Centre where we have two glass-backed squash courts.\nSunday night (18:20-20:20) is the club social night and open to all abilities.\nWednesday night (19:40-21:00) is team training.\nMeet fellow squash players and arrange squash matches to suit.\nJoin the team to play regular league matches across the county.\nWe currently have three teams competing in the Nottinghamshire squash league\nSutton Squash Club is Affiliated with England Squash.",
   "address": {
     "@type": "PostalAddress",

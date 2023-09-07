@@ -14,7 +14,7 @@
             <div class="row">
                 <a href="https://www.englandsquash.com/finder/club/sutton-squash-club/861">
                     <img class="img-fluid" width="20%" height="20%" alt="England Squash"
-                        src="https://www.suttonsquash.club/img/englandsquash.png" />
+                        src="{{ asset('assets/img/englandsquash.png') }}" />
                 </a>
             </div>
         </div>
