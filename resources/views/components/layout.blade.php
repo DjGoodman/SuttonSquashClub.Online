@@ -54,6 +54,11 @@
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0"
         nonce="2GkTszif"></script>
+
+        {{-- Adsense --}}
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4052036123523379"
+     crossorigin="anonymous"></script>
 </head>
 
 <body>
