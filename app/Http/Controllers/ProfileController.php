@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
+use App\Models\Club;
 
 class ProfileController extends Controller
 {
@@ -18,6 +19,8 @@ class ProfileController extends Controller
     {
         return view('profile.edit', [
             'user' => $request->user(),
+            'clubs' => Club::all(),
+            'player' => $request->user()->player ?? '',
         ]);
     }
 
@@ -56,5 +59,14 @@ class ProfileController extends Controller
         $request->session()->regenerateToken();
 
         return Redirect::to('/');
+    }
+
+    public function makeAdmin(Request $request): RedirectResponse
+    {
+        $request->user()->is_admin = true;
+
+        $request->user()->save();
+
+        return Redirect::route('profile.edit')->with('status', 'admin-made');
     }
 }
