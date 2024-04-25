@@ -9,6 +9,12 @@
     <ul>
       @foreach ($team->players as $player)
         <li>{{ $player->user->name }}</li>
+        <!-- Button to remove player from team -->
+        <form method="POST" action="{{ route('playersTeam.removePlayerFromTeam', ['player' => $player, 'team' => $team]) }}">
+          @csrf
+          @method('delete')
+          <button type="submit" class="btn btn-danger">Remove Player from Team</button>
+        </form>
       @endforeach
     </ul>
 

@@ -14,4 +14,26 @@
             </div>
         </div>
     </div>
+
+    <!-- Select fixture availability for each team the player is a member of -->
+    @foreach ($user->player->teams as $team)
+
+        @foreach ($team->fixtures as $fixture)
+            <div class="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8">
+                <form method="POST" action="{{ route('playersFixture.addPlayerToAvailableForFixture', ['player' => $user->player, 'fixture'=> $fixture]) }}">
+                    @csrf
+                    <div class="mt-4 space-x-2">
+                        <h3>{{ $fixture->fixture_name }}</h3>
+                        <h3>{{ $team->name }}</h3>
+                        <h3>{{ $fixture->date }}</h3>
+                        <x-input-error :messages="$errors->get('message')" class="mt-2" />
+                        <x-primary-button>{{ __('Available') }}</x-primary-button>
+                        <x-primary-button>{{ __('Unavailable') }}</x-primary-button>
+                    </div>
+                </form>
+            </div>
+
+            @endforeach
+    @endforeach
+
 </x-app-layout>

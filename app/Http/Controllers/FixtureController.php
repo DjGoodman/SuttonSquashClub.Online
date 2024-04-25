@@ -51,6 +51,10 @@ class FixtureController extends Controller
     public function show(Fixture $fixture)
     {
         //
+        return view('fixtures.show', [
+            'fixture' => $fixture,
+            'selectedPlayers' => $fixture->players,
+        ]);
     }
 
     /**

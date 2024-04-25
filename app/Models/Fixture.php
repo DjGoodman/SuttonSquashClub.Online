@@ -29,4 +29,14 @@ class Fixture extends Model
     {
         return $this->belongsTo(Club::class);
     }
+
+    public function players()
+    {
+        return $this->belongsToMany(Player::class);
+    }
+
+    public function availablePlayers()
+    {
+        return $this->belongsToMany(Player::class,'available_fixture_player','fixture_id','player_id');
+    }
 }

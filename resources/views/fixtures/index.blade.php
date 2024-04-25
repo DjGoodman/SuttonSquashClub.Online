@@ -47,6 +47,9 @@
               <x-dropdown-link :href="route('fixtures.edit', $fixture)">
                 {{ __('Edit') }}
               </x-dropdown-link>
+              <x-dropdown-link :href="route('fixtures.show', $fixture)">
+            {{ __('Select Players') }}
+          </x-dropdown-link>
               <form method="POST" action="{{ route('fixtures.destroy', $fixture) }}">
                 @csrf
                 @method('delete')

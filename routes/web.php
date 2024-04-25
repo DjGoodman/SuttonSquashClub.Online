@@ -10,8 +10,10 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FixtureController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\ClubController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\PlayersTeamController;
+use App\Http\Controllers\PlayersFixtureController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,9 +42,7 @@ Route::get('/join', [MembershipController::class, 'index']);
 Route::get('/juniors', [MembershipController::class, 'juniors']);
 Route::get('/membership/juniors', [MembershipController::class, 'juniors']);
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -51,7 +51,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile/makeAdmin', [ProfileController::class, 'makeAdmin'])->name('profile.makeAdmin');
 });
 
-Route::resource('fixtures', FixtureController::class)->only(['index', 'store', 'edit', 'update', 'destroy'])->middleware('auth', 'verified');
+Route::resource('fixtures', FixtureController::class)->only(['index', 'store', 'edit', 'update', 'destroy', 'show'])->middleware('auth', 'verified');
 
 Route::resource('teams', TeamController::class)->only(['index', 'store', 'edit', 'update', 'destroy', 'show'])->middleware('auth', 'verified');
 
@@ -61,4 +61,12 @@ Route::resource('players', PlayerController::class)->only(['index', 'store', 'ed
 
 Route::resource('playersTeam', PlayersTeamController::class)->only(['index', 'store', 'edit', 'update', 'destroy'])->middleware('auth', 'verified');
 
+Route::delete('/playersTeam/{player}/{team}', [PlayersTeamController::class, 'removePlayerFromTeam'])->name('playersTeam.removePlayerFromTeam')->middleware('auth', 'verified');
+Route::controller('playersFixture', PlayersFixtureController::class)->group(
+    function () {
+        Route::post('/playersFixture/{fixture}/{player}', 'addPlayerToFixture')->name('playersFixture.addPlayerToFixture');
+        Route::post('/playersFixture/{fixture}/{player}/remove', 'removePlayerFromFixture')->name('playersFixture.removePlayerFromFixture');
+        Route::post('/playersFixture/{fixture}/{player}/add', 'addPlayerToAvailableForFixture')->name('playersFixture.addPlayerToAvailableForFixture');
+    }
+)->middleware('auth', 'verified');
 require __DIR__.'/auth.php';

@@ -28,4 +28,9 @@ class Team extends Model
     {
         return $this->belongsTo(Club::class);
     }
+
+    function fixtures()
+    {
+        return $this->hasMany(Fixture::class);
+    }
 }

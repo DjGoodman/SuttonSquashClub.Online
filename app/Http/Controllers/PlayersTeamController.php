@@ -42,7 +42,14 @@ class PlayersTeamController extends Controller
 
         $team->players()->attach($player);
 
-        return redirect()->route('teams.show', ['team' => $team]);
+        return redirect()->route(
+            'teams.show',
+            [
+                'team' => $team,
+                'players' => $team->players,
+                'clubPlayers' => $team->club->players
+            ]
+        );
     }
 
     /**
@@ -74,6 +81,19 @@ class PlayersTeamController extends Controller
      */
     public function destroy(PlayersTeam $playersTeam)
     {
-        //
+    }
+
+    public function removePlayerFromTeam(Player $player, Team $team)
+    {
+        $team->players()->detach($player);
+
+        return redirect()->route(
+            'teams.show',
+            [
+                'team' => $team,
+                'players' => $team->players,
+                'clubPlayers' => $team->club->players
+            ]
+        );
     }
 }

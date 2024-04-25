@@ -34,4 +34,8 @@ class Player extends Model
     public function user(){
         return $this->belongsTo(User::class);
     }
+
+    public function availableFixtures(){
+        return $this->belongsToMany(Fixture::class,'available_fixture_player', 'fixture_id', 'player_id');
+    }
 }
