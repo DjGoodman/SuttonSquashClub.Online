@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [WelcomeController::class, 'index']);
+Route::get('/padel', [WelcomeController::class, 'padel']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

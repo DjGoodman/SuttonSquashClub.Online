@@ -12,7 +12,13 @@ class WelcomeController extends Controller
     public function index()
     {
         $pageTitle = "Welcome";
-        return view('welcome', ['pageTitle' => $pageTitle,'pageDescription' => "The HomePage of the site"]);
+        return view('welcome', ['pageTitle' => $pageTitle,'pageDescription' => "The HomePage of the Sutton Squash Club"]);
+    }
+
+    public function padel()
+    {
+        $pageTitle = "Padel";
+        return view('padel', ['pageTitle' => $pageTitle,'pageDescription' => "Information about Padel Tennis in Mansfield and Sutton in Ashfield"]);
     }
 
     /**
