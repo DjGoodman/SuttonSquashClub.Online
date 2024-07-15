@@ -13,6 +13,7 @@
                 </div>
 
                 <!-- row -->
+                 <h3>Sutton Community Academy</h3>
                 <div class="row">
 
                     <div class="card col-md-6">
@@ -62,7 +63,7 @@
                 </div>
 
                 <!-- row -->
-
+                <h3>Lammas Leisure Centre</h3>
                 <div class="row">
                     <div class="card col-md-6">
                         <div id="LammasDirections" class="card-body">
