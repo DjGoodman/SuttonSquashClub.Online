@@ -29,7 +29,7 @@ class AboutController extends Controller
     {
         $pageTitle = "Find Us";
         $pageDescription = "How To Find Sutton Squash Club";
-        return view('about', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
+        return view('find', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
 
     }
 
