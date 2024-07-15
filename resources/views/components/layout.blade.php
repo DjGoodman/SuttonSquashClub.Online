@@ -87,6 +87,8 @@
                         <li class="dropdown-item"><a class="nav-link" href="/juniors">Juniors</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/boxleague">Sutton and Mansfield League</a>
                         </li>
+                        <li class="dropdown-item"><a class="nav-link" href="/findus">Find Us</a></li>
+                        <li class="dropdown-item"><a class="nav-link" href="/padel">Padel</a></li>
                     </ul>
                 </li>
             </ul>

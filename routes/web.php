@@ -35,6 +35,7 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/contact', [ContactController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
+Route::get('/findus', [AboutController::class, 'findus']);
 Route::get('/calendar', [AboutController::class, 'calendar']);
 Route::get('/about/calendar', [AboutController::class, 'calendar']);
 Route::get('/social', [SocialController::class, 'index']);

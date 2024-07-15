@@ -25,6 +25,14 @@ class AboutController extends Controller
         return view('calendar', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
+    public function findus()
+    {
+        $pageTitle = "Find Us";
+        $pageDescription = "How To Find Sutton Squash Club";
+        return view('about', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
+
+    }
+
     /**
      * Show the form for creating a new resource.
      */
