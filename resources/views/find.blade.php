@@ -8,6 +8,8 @@
                         <img class="img-fluid" src="{{ asset('assets/img/logo.jpg') }}" itemprop="logo" />
                     </div>
                     <h2 itemprop="https://schema.org/legalName">Sutton Squash Club</h2>
+                    <h3>We play at two venues: Sutton Community Academy and Lammas Leisure Centre</h3>
+                    <h3>Make sure you are going to the correct one</h3>
                 </div>
 
                 <!-- row -->
@@ -36,8 +38,19 @@
                                 </span>
                                 <span>
                                 </span>
+                        </div>
+                    </div>
 
-                                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                    <div class="card col-md-6">
+                        <div id="SuttonCommunityVideo" class="card-body">
+                        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3504255329866230%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-6">
+                        
+                        <div class="card-body">
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d598.5597547175125!2d-1.2621437845828667!3d53.12385480324825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879942af7045195%3A0x1f6900e87d57e5ca!2sSutton%20Community%20Academy!5e0!3m2!1sen!2suk!4v1704711698468!5m2!1sen!2suk"
                                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -46,18 +59,11 @@
                         </div>
                     </div>
 
-                    <div class="card col-md-6">
-                        <div class="card-body">
-                        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3504255329866230%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-                        </div>
-                    </div>
-
                 </div>
 
                 <!-- row -->
 
                 <div class="row">
-
                     <div class="card col-md-6">
                         <div id="LammasDirections" class="card-body">
                             <a href="https://SuttonSquash.club" class="ninja" itemprop="url">SuttonSquash.club</a>
