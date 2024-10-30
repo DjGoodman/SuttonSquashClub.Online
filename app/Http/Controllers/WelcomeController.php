@@ -21,6 +21,12 @@ class WelcomeController extends Controller
         return view('padel', ['pageTitle' => $pageTitle,'pageDescription' => "Information about Padel Tennis in Mansfield and Sutton in Ashfield"]);
     }
 
+    public function pickleball()
+    {
+        $pageTitle = "Pickleball";
+        return view('pickleball', ['pageTitle' => $pageTitle,'pageDescription' => "Information about pickleball Tennis in Mansfield and Sutton in Ashfield"]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */

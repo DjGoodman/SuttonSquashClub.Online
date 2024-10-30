@@ -19,10 +19,13 @@
                     <div class="card col-md-6">
                         <div id="SuttonCommunityDirections" class="card-body">
                             <p>
-                                The entrance to Sutton Community academy can be a little difficult to find:
+                                The entrance to Sutton Community academy can be a little difficult to find(You will get lost if you dont follow this guidance):
                                 You can drive to the centre using roads highlighted.
                                 It is best to park in the market carpark (free after 18:00) and walk round to the
                                 entrance, marked with red arrow.
+                                Drive to the carparks via langton road then new street to find the correct side of the school.
+                                Entrance to carpark What3Words: ///signal.blues.bricks
+                                Entrance to the centre What3Words: ///kind.soils.lifts
                                 Link to Video:
                                 <a href='https://www.facebook.com/reel/953400916372364'>How to find the Squash
                                     Courts</a>
@@ -31,11 +34,11 @@
                                 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                     <span itemprop="streetAddress">
                                         Sutton Community Academy<br />
-                                        55 High Pavement
+                                        Market Place, Sutton-in-Ashfield NG17 1AQ
                                     </span><br />
                                     <span itemprop="addressLocality">Sutton-in-Ashfield</span><br />
                                     <span itemprop="addressRegion">Nottinghamshire</span><br />
-                                    <span itemprop="postalCode">NG17 1EE</span><br />
+                                    <span itemprop="postalCode">NG17 1AQ</span><br />
                                 </span>
                                 <span>
                                 </span>

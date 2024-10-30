@@ -85,7 +85,7 @@
                     <ul class="dropdown-menu" style="background-color: #34bdeb;" aria-labelledby="navbarDropdown">
                         <li class="dropdown-item"><a class="nav-link" href="/join">Join Us</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/juniors">Juniors</a></li>
-                        <li class="dropdown-item"><a class="nav-link" href="/boxleague">Sutton and Mansfield League</a>
+                        <li class="dropdown-item"><a class="nav-link" href="/boxleague">Sutton box Leagues</a>
                         </li>
                         <li class="dropdown-item"><a class="nav-link" href="/findus">Find Us</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/padel">Padel</a></li>

@@ -13,11 +13,10 @@
                             We are taking memberships for the new season!<br />
                             If you are interested email us at contact@suttonsquash.club and we will send you the sign up
                             Form.<br />
-                            £20 Membership Includes:<br />
+                            £15 Membership Includes:<br />
                         <ul>
-                            <li>England Squash Membership Worth £15 (Insurance, Coaching Videos, Discounts)</li>
-                            <li>£1 Discount at Wednesday club night (£4->£3)</li>
-                            <li>40p Discount booking courts at Sutton Community Academy (£8->£7.60)</li>
+                            <li>Discount at Wednesday club night</li>
+                            <li>40p Discount booking courts at Sutton Community Academy</li>
                             <li>Opportunity to play team squash in Nottinghamshire Leagues.</li>
                         </ul>
                         </p>

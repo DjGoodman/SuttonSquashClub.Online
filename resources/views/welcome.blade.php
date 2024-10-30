@@ -43,9 +43,9 @@
                     <div class="card">
                         <img src= "{{ asset('assets/img/senior.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Sutton And Mansfield league</h5>
-                            <p class="card-text">The Sutton & Mansfield Squash League is open to anyone who plays squash
-                                in the Sutton & Mansfield area.<br />
+                            <h5 class="card-title">Sutton Box leagues</h5>
+                            <p class="card-text">The Sutton box League is open to anyone who plays squash
+                                in Sutton.<br />
                                 <a href="/boxleague">Get the info here</a>
                             </p>
                         </div>

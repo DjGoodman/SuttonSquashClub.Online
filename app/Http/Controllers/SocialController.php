@@ -19,8 +19,15 @@ class SocialController extends Controller
     public function boxleague()
     {
         $pageTitle = "Social Box Leagues";
-        $pageDescription = "Information about Sutton and Mansfield Box Leagues";
+        $pageDescription = "Information about Sutton Box Leagues";
         return view('boxleague', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
+    }
+
+    public function boxleagueFAQ()
+    {
+        $pageTitle = "Social Box Leagues FAQ";
+        $pageDescription = "Information about Sutton Box Leagues";
+        return view('boxleagueFAQ', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
     /**

@@ -9,8 +9,7 @@
                 <div class="card-deck">
                     <div class="card">
                         <div class="card-body col-md-12">
-                            <p>The Sutton & Mansfield Squash League is open to anyone who plays squash in the Sutton &
-                                Mansfield area.<br/>
+                            <p>The Sutton box Leagues are open to anyone who plays squash in the Sutton<br/>
                                 This league is for any player of any standard to join in and play. You will meet new
                                 people, make friends, keep fit and improve your squash.<br/>
                                 We think squash is a great sport and should be played by everyone. The league is free
@@ -21,8 +20,6 @@
                                         Centre, Sutton-in-Ashfield</span></li>
                                     <li><span itemprop="address" itemtype="http://schema.org/PostalAddress">Sutton Community
                                         Academy,Sutton-in-Ashfield</span></li>
-                                    <li><span itemprop="address" itemtype="http://schema.org/PostalAddress">Joseph Whitaker
-                                        Sports Centre, Rainworth</span></li>
                                 </ul>
                             </p>
                         </div>
@@ -36,13 +33,15 @@
                                         itemprop="email">contact@suttonsquash.club</a>
                                 </address>
                                 </p>
+
+                                <a href="/boxleagueFAQ">See out FAQ for more info</a>
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row col-md-12" style="height: 500px; width:100%">
-                    <x-sportyhq />
+                    <x-squashlevels-box />
             </div>
         </div>
         </div>
