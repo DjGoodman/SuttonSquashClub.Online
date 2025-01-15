@@ -7,7 +7,7 @@
             <h1>Sutton in Ashfield</h1>
             <h1>Squash Club</h1>
             <p class="lead">Sponsored By:</p>
-            <div class="row"></div>
+            <div class="row">
                 <div class="col-md-3">
                     <a href="https://crossfithexis.com/home/"><img src="{{ asset('assets/img/sponsor/hexis.png') }}" class="img-fluid" alt="Crossfit Hexis"></a>
                 </div>
@@ -21,6 +21,7 @@
                 <a href="https://www.protein-shack.co.uk/"><img src="{{ asset('assets/img/sponsor/protein-shack.png') }}" class="img-fluid" alt="Protein Shack"></a>
                 </div>
             </div>
+        </div>
             <div class="row text-center">
             </div>
             <p class="lead text-center">Affiliated with</p>
