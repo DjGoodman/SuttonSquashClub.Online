@@ -9,16 +9,16 @@
             <p class="lead">Sponsored By:</p>
             <div class="row"></div>
                 <div class="col-md-3">
-                    <a href="https://crossfithexis.com/home/"><img src="{{ asset('assets/img/hexis.png') }}" class="img-fluid" alt="Crossfit Hexis"></a>
+                    <a href="https://crossfithexis.com/home/"><img src="{{ asset('assets/img/sponsor/hexis.png') }}" class="img-fluid" alt="Crossfit Hexis"></a>
                 </div>
                 <div class="col-md-3">
-                <a href="https://www.facebook.com/profile.php?id=100088832055803"><img src="{{ asset('assets/img/jim-heat.png') }}" class="img-fluid" alt="Jim Heat, Plumbing and heating company, local to Derbyshire, friendly and reliable with competitive prices"></a>
+                <a href="https://www.facebook.com/profile.php?id=100088832055803"><img src="{{ asset('assets/img/sponsor/jim-heat.png') }}" class="img-fluid" alt="Jim Heat, Plumbing and heating company, local to Derbyshire, friendly and reliable with competitive prices"></a>
                 </div>
                 <div class="col-md-3">
-                <a href="https://www.craftunionpubs.com/nags-head-sutton-in-ashfield"><img src="{{ asset('assets/img/nags-head.png') }}" class="img-fluid" alt="Nags Head Pub in Sutton-in-Ashfield"></a>
+                <a href="https://www.craftunionpubs.com/nags-head-sutton-in-ashfield"><img src="{{ asset('assets/img/sponsor/nags-head.png') }}" class="img-fluid" alt="Nags Head Pub in Sutton-in-Ashfield"></a>
                 </div>
                 <div class="col-md-3">
-                <a href="https://www.protein-shack.co.uk/"><img src="{{ asset('assets/img/protein-shack.png') }}" class="img-fluid" alt="Protein Shack"></a>
+                <a href="https://www.protein-shack.co.uk/"><img src="{{ asset('assets/img/sponsor/protein-shack.png') }}" class="img-fluid" alt="Protein Shack"></a>
                 </div>
             </div>
             <div class="row text-center">
