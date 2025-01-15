@@ -12,7 +12,7 @@
                     <a href="https://crossfithexis.com/home/"><img src="{{ asset('assets/img/sponsor/hexis.png') }}" class="img-fluid" alt="Crossfit Hexis"></a>
                 </div>
                 <div class="col-md-3">
-                <a href="https://www.facebook.com/profile.php?id=100088832055803"><img src="{{ asset('assets/img/sponsor/jim-heat.png') }}" class="img-fluid" alt="Jim Heat, Plumbing and heating company, local to Derbyshire, friendly and reliable with competitive prices"></a>
+                <a href="https://www.facebook.com/profile.php?id=100088832055803"><img src="{{ asset('assets/img/sponsor/jim-heat.jpg') }}" class="img-fluid" alt="Jim Heat, Plumbing and heating company, local to Derbyshire, friendly and reliable with competitive prices"></a>
                 </div>
                 <div class="col-md-3">
                 <a href="https://www.craftunionpubs.com/nags-head-sutton-in-ashfield"><img src="{{ asset('assets/img/sponsor/nags-head.png') }}" class="img-fluid" alt="Nags Head Pub in Sutton-in-Ashfield"></a>
