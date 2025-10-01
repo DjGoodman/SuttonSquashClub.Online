@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="card text-center col-md-12">
                     <div class="card-body">
-                            <img class="img-fluid" src="{{ asset('assets/img/team2.png') }}" itemprop="team" />
+                            <img class="img-fluid" src="{{ asset('assets/img/team2.jpg') }}" itemprop="team" />
                     </div>
                 </div>
             </div>
