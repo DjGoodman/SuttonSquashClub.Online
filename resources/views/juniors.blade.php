@@ -10,11 +10,14 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <p>
-                                We currently have a junior session running on saturday mornings at sutton community
+                                We currently have a junior session running on Wednesday Nights 18:20 till 19:00 at sutton community
                                 accademy.
-                                The Junior sessions are run by our coach George Taylor.
-                                Contact George on 07496752757 or email us for more info.
+                                The Junior sessions are run by our coaches Andy Hay and Daniel Goodman.
+                                Contact Andy on 07919026344 or email andy@advancesquash.co.uk for more info.
                             </p>
+                            <div>
+                                <img class="img-fluid" src="{{ asset('assets/img/ASC1.png') }}" itemprop="juniors" />
+                            </div>
                         </div>
                     </div>
 
