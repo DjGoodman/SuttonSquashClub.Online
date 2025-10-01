@@ -13,7 +13,7 @@
 
                         <p>These dynamic indoor racket sports offer a similar adrenaline rush and social fun to pickleball.</p>
 
-                        <p>Here's why Squash or Racketball could be your perfect match:</p>
+                        <p>Here's why Squash or Squash57 could be your perfect match:</p>
 
                         <ul>
                             <li>Readily Available: No need to wait for pickleball courts to pop up. Hit the court today!</li>
@@ -24,7 +24,10 @@
                         </ul>
 
                         <p>Squash: Offers a smaller court with a more intense workout, perfect for those who love a physical challenge.</p>
-                        <p>Racketball: Is the same Rules as squash with slightly slower pace, ideal for beginners or those who prefer a more strategic approach.</p>
+                        <p>Squash57: Is the same Rules as squash with slightly slower pace, ideal for beginners or those who prefer a more strategic approach.</p>
+                        </div>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/uhEFV75nTxI?si=dRfuNvxcYEog1DaT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
 

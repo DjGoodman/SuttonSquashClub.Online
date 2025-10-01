@@ -9,6 +9,13 @@
             <div class="row">
                 <div class="card text-center col-md-12">
                     <div class="card-body">
+                            <img class="img-fluid" src="{{ asset('assets/img/team2.png') }}" itemprop="team" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card text-center col-md-12">
+                    <div class="card-body">
                         <p>
                             We are taking memberships for the new season!<br />
                             If you are interested email us at contact@suttonsquash.club and we will send you the sign up
@@ -22,7 +29,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
 
