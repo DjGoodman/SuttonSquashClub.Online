@@ -22,7 +22,6 @@
                             Form.<br />
                             £15 Membership Includes:<br />
                         <ul>
-                            <li>Discount at Wednesday club night</li>
                             <li>40p Discount booking courts at Sutton Community Academy</li>
                             <li>Opportunity to play team squash in Nottinghamshire Leagues.</li>
                         </ul>

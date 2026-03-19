@@ -3,7 +3,7 @@
 
 
         <div class="jumbotron text-center container container-fluid">
-            <h1>Club Social Night</h1>
+            <h1>Club beginner Night</h1>
         </div>
         <div class="container container-fluid">
             <div class="row">
@@ -11,10 +11,10 @@
                     <div class="card ">
                         <div class="card-body">
                             <p>
-                                Social squash is currently on every Wednesday at Sutton Community Academy.<br />
+                                Beginner squash is currently on Wednesday's during School term time at Sutton Community Academy.<br />
                                 7 pm - 8:20 pm <br />
-                                First Session is Free,
-                                £3 thereafter (£4 non-members).
+                                First Session is Free.
+                                Includes Coaching 
                             </p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                                 <p>Had another great club night last night.
                                     We are always looking for new players so why not come and pick up a racket!
                                     Try the first session completely free
-                                    Wednesday nights 1900 at Sutton community
+                                    Wednesday nights term time at 1900 at Sutton community
                                     Academy
 
                                     #sport #squash #fun #beginner #fitness #free

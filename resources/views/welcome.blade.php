@@ -73,10 +73,6 @@
                 <h2>News</h2>
                 <div class="card-deck">
                     <div class="card">
-                        <x-twitter>
-                        </x-twitter>
-                    </div>
-                    <div class="card">
                         <x-instagram>
                         </x-instagram>
                     </div>
