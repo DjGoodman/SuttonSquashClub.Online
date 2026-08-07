@@ -9,7 +9,7 @@
                 <div class="card-deck">
                     <div class="card">
                         <div class="card-body text-center">
-                        <p>While Padel isn't quite here yet in Sutton and Mansfield, there are two fantastic alternatives waiting for you: Squash and Racketball!</p>
+                        <p>While Padel isn't quite here yet in Sutton, there are two fantastic alternatives waiting for you: Squash and Racketball!</p>
 
                         <p>These dynamic indoor racket sports offer a similar adrenaline rush and social fun to Padel.</p>
 

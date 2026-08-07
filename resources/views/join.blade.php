@@ -20,10 +20,12 @@
                             We are taking memberships for the new season!<br />
                             If you are interested email us at contact@suttonsquash.club and we will send you the sign up
                             Form.<br />
-                            £15 Membership Includes:<br />
+                            Membership Includes:<br />
                         <ul>
-                            <li>40p Discount booking courts at Sutton Community Academy</li>
+                            <li>Discount booking courts at Sutton Community Academy</li>
                             <li>Opportunity to play team squash in Nottinghamshire Leagues.</li>
+                            <li>Social events.</li>
+                            <li>Internal Leagues</li>
                         </ul>
                         </p>
                     </div>

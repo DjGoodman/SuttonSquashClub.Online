@@ -16,7 +16,7 @@
                     <div class="card col-md-6">
                         <div class="card-body">
                     <p>
-                                Sutton Squash Club operates out of the Lammas Centre and Sutton Community Academy.<br />
+                                Sutton Squash Club plays at Sutton Community Academy.<br />
                                 Wednesday night (19:00-20:20) is the club social night at Sutton Community Academy and open to all abilities. <br />
                                 Meet fellow squash players and arrange squash matches to suit.<br />
                                 Join the team to play regular league matches across the county.<br />
@@ -30,10 +30,11 @@
                                 <img class="img-fluid" width="20%" height="20%" alt="England Squash"
                                     src="https://www.suttonsquash.club/assets/img/englandsquash.png" />
                             </a><br />
-                            <p>You can book to play at Lammas leisure centre or at Sutton community academy through their websites:<br />
+                            <p>You can book to play at Lammas leisure centre or at Sutton community academy through their websites,:<br />
                                         <a href="https://www.everyoneactive.com/centre/lammas-leisure-centre/">Lammas Leisure Centre</a><br />
                                         <a href="https://suttoncommunityacademy.communitybookings.co.uk/sports-halls-outdoor-pitches/squash-courts">Sutton Community Academy</a></p>
                                         <br />
+                                        Members get special rates at Sutton Community Academy.
 </div>
 </div>
 </div>
@@ -51,11 +52,11 @@
                             <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                 <span itemprop="streetAddress">
                                     Sutton Community Academy<br />
-                                    55 High Pavement
+                                    Market Place,
                                 </span><br />
                                 <span itemprop="addressLocality">Sutton-in-Ashfield</span><br />
                                 <span itemprop="addressRegion">Nottinghamshire</span><br />
-                                <span itemprop="postalCode">NG17 1EE</span><br />
+                                <span itemprop="postalCode">NG17 1AQ</span><br />
                             </span>
                             <span>
                             </span>

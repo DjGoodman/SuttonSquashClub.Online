@@ -8,8 +8,8 @@
                         <img class="img-fluid" src="{{ asset('assets/img/logo.jpg') }}" itemprop="logo" />
                     </div>
                     <h2 itemprop="https://schema.org/legalName">Sutton Squash Club</h2>
-                    <h3>We play at two venues: Sutton Community Academy and Lammas Leisure Centre</h3>
-                    <h3>Make sure you are going to the correct one</h3>
+                    <h3>All of our sessions are at Sutton Community Academy not Lammas Leisure Centre</h3>
+                    <h3>Please make sure you are going to the correct venue</h3>
                 </div>
 
                 <!-- row -->
@@ -66,7 +66,7 @@
                 </div>
 
                 <!-- row -->
-                <h3>Lammas Leisure Centre</h3>
+                <!-- <h3>Lammas Leisure Centre</h3>
                 <div class="row">
                     <div class="card col-md-6">
                         <div id="LammasDirections" class="card-body">
@@ -99,7 +99,7 @@
                         </div>
                     </div>
 
-                </div>
+                </div> -->
         </div>
 
     </x-slot>

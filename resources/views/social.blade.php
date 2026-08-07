@@ -3,19 +3,31 @@
 
 
         <div class="jumbotron text-center container container-fluid">
-            <h1>Club beginner Night</h1>
+            <h1>Our Sessions</h1>
         </div>
         <div class="container container-fluid">
             <div class="row">
                 <div class="card-deck col-md-12">
                     <div class="card ">
                         <div class="card-body">
-                            <p>
-                                Beginner squash is currently on Wednesday's during School term time at Sutton Community Academy.<br />
-                                7 pm - 8:20 pm <br />
-                                First Session is Free.
-                                Includes Coaching 
-                            </p>
+                            <h2>Squash Sessions at Sutton Community Academy</h2>
+  <p>Join our friendly sessions during school term time! <strong>Your first session is FREE</strong>, and coaching is included.</p>
+  
+  <hr>
+
+  <h3>Beginner Squash</h3>
+  <ul>
+    <li><strong>When:</strong> Wednesdays (School Term Time)</li>
+    <li><strong>Time:</strong> 7:00 PM &ndash; 8:20 PM</li>
+    <li><strong>Perks:</strong> Includes Coaching | <em>First Session Free</em></li>
+  </ul>
+
+  <h3>Women’s Squash</h3>
+  <ul>
+    <li><strong>When:</strong> 1st &amp; 3rd Wednesday of the month (School Term Time)</li>
+    <li><strong>Time:</strong> 6:15 PM &ndash; 7:00 PM</li>
+    <li><strong>Perks:</strong> Includes Coaching | <em>First Session Free</em></li>
+  </ul>
                         </div>
                     </div>
                     <div class="card col-md-12">
