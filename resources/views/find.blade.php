@@ -36,11 +36,11 @@
                                 </li>
                                 <li class="mb-2">
                                     <strong>📍 Car Park What3Words:</strong> 
-                                    <a href="https://what3words.com/signal.blues.bricks" target="_blank" rel="noopener" class="badge bg-secondary text-decoration-none">///signal.blues.bricks</a>
+                                    <a href="https://what3words.com/signal.blues.bricks" target="_blank" rel="noopener" class="badge text-decoration-none">///signal.blues.bricks</a>
                                 </li>
                                 <li class="mb-2">
                                     <strong>🚪 Centre Entrance What3Words:</strong> 
-                                    <a href="https://what3words.com/kind.soils.lifts" target="_blank" rel="noopener" class="badge bg-secondary text-decoration-none">///kind.soils.lifts</a>
+                                    <a href="https://what3words.com/kind.soils.lifts" target="_blank" rel="noopener" class="badge text-decoration-none">///kind.soils.lifts</a>
                                 </li>
                             </ul>
 
