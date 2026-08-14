@@ -72,9 +72,9 @@
                         <div class="card-header bg-light">
                             <h3 class="h5 mb-0">Video Guide: How to Find the Courts</h3>
                         </div>
-                        <div id="SuttonCommunityVideo" class="card-body text-center">
-                            <div class="ratio ratio-9x16 mx-auto" style="max-width: 270px; min-height: 476px;">
-                                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3504255329866230%2F&show_text=false&width=267&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <div id="SuttonCommunityVideo" class="card-body text-center d-flex flex-column align-items-center">
+                            <div style="width: 267px; height: 476px; max-width: 100%;">
+                                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3504255329866230%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                             </div>
                             <div class="mt-3">
                                 <a href="https://www.facebook.com/reel/953400916372364" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">
@@ -90,8 +90,8 @@
                             <h3 class="h5 mb-0">Location Map</h3>
                         </div>
                         <div class="card-body p-0">
-                            <div class="ratio ratio-16x9 h-100" style="min-height: 300px;">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d598.5597547175125!2d-1.2621437845828667!3d53.12385480324825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879942af7045195%3A0x1f6900e87d57e5ca!2sSutton%20Community%20Academy!5e0!3m2!1sen!2suk!4v1704711698468!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div style="width: 100%; height: 450px; min-height: 350px;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d598.5597547175125!2d-1.2621437845828667!3d53.12385480324825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879942af7045195%3A0x1f6900e87d57e5ca!2sSutton%20Community%20Academy!5e0!3m2!1sen!2suk!4v1704711698468!5m2!1sen!2suk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
