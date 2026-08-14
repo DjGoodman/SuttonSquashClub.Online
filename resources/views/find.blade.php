@@ -45,7 +45,7 @@
                             </ul>
 
                             <div class="mb-4 text-center">
-                                <img class="img-fluid rounded border" alt="Map showing entrance to Sutton Centre" src="https://www.suttonsquash.club/assets/img/entrance.png" />
+                                <img class="img-fluid rounded border" alt="Map showing entrance to Sutton Centre" src="https://www.suttonsquash.club/assets/img/SCA-Instructions.png" />
                             </div>
 
                             <hr>
