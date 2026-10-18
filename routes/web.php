@@ -41,6 +41,7 @@ Route::get('/findus', [AboutController::class, 'findus']);
 Route::get('/calendar', [AboutController::class, 'calendar']);
 Route::get('/about/calendar', [AboutController::class, 'calendar']);
 Route::get('/social', [SocialController::class, 'index']);
+Route::get('/teams', [SocialController::class, 'teamUpdates'])->name('teams');
 Route::get('/sponsors', [SponsorsController::class, 'index'])->name('sponsors');
 Route::get('/social/boxleague', [SocialController::class, 'boxleague']);
 Route::get('/boxleague', [SocialController::class, 'boxleague']);

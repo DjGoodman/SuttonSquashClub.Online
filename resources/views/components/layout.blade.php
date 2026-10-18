@@ -87,6 +87,7 @@
                         <li class="dropdown-item"><a class="nav-link" href="/join">Join Us</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/getting-started">Getting Started FAQ</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/team-squash-faq">Team Squash FAQ</a></li>
+                        <li class="dropdown-item"><a class="nav-link" href="/teams">Follow Our Teams</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/juniors">Juniors</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/boxleague">Sutton box Leagues</a>
                         </li>
