@@ -9,6 +9,9 @@
     <title>{{ $pageTitle }} - Sutton Squash Club</title>
     <meta name="description" content="{{ $pageDescription }}">
     <link rel="canonical" href="{{ url()->current() }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
     <script type='application/ld+json'> 
 {
@@ -62,15 +65,16 @@
 </head>
 
 <body>
-    <div class="navbar navbar-expand-lg navbar-dark" style="background-color: #34bdeb; color: white">
+    <div class="navbar navbar-expand-lg navbar-dark site-navbar">
         <a class="navbar-brand" href="/">
             <img src="{{ asset('assets/img/logo-no-bg-w.png') }}" itemprop="logo" width="30" height="30"
                 class="d-inline-block align-top" alt="Sutton Squash Logo">
             Sutton Squash Club</a>
-        <button type="button" class="navbar-toggler border" data-toggle="collapse" data-target=".navbar-collapse">
+        <button type="button" class="navbar-toggler border" data-toggle="collapse" data-target=".navbar-collapse"
+            aria-controls="club-navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse" style="color: rgb(255, 255, 255, 1)">
+        <div class="navbar-collapse collapse" id="club-navigation">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
@@ -84,7 +88,7 @@
                 <li class="nav-item dropdown">
                     <a href="" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                         role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
-                    <ul class="dropdown-menu" style="background-color: #34bdeb;" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu site-dropdown" aria-labelledby="navbarDropdown">
                         <li class="dropdown-item"><a class="nav-link" href="/join">Join Us</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/getting-started">Getting Started FAQ</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/team-squash-faq">Team Squash FAQ</a></li>
