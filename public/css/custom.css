@@ -1,320 +1,55 @@
-:root {
-    --club-black: #171717;
-    --club-charcoal: #292929;
-    --club-grey: #666;
-    --club-light-grey: #f2f2f0;
-    --club-border: #dededb;
-}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
 
-body {
-    color: var(--club-charcoal);
-    background: #fff;
+.ninja{
+    display:none;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.navbar-brand {
-    font-family: 'Permanent Marker', 'Marker Felt', 'Comic Sans MS', cursive;
-}
-
-a {
-    color: var(--club-charcoal);
-}
-
-a:hover {
-    color: var(--club-black);
-}
-
-.site-navbar {
-    background: var(--club-black);
-    color: #fff;
-}
-
-.site-navbar .navbar-brand,
-.site-navbar .nav-link {
-    color: #fff;
-}
-
-.site-navbar .nav-link:hover,
-.site-navbar .nav-link:focus,
-.site-navbar .navbar-brand:hover,
-.site-navbar .navbar-brand:focus {
-    color: #d0d0d0;
-}
-
-.site-navbar .navbar-toggler {
-    border-color: #777;
-}
-
-.site-dropdown {
-    background: var(--club-charcoal);
-    border-color: #444;
-}
-
-.site-dropdown .dropdown-item,
-.site-dropdown .nav-link {
-    color: #fff;
-}
-
-.site-dropdown .dropdown-item:hover,
-.site-dropdown .dropdown-item:focus {
-    background: #444;
-    color: #fff;
-}
-
-.btn-primary,
-.btn-primary:not(:disabled):not(.disabled):active,
-.btn-primary:not(:disabled):not(.disabled).active {
-    background: var(--club-black);
-    border-color: var(--club-black);
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-    background: #3b3b3b;
-    border-color: #3b3b3b;
-}
-
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-outline-primary:focus,
-.btn-outline-primary.focus,
-.form-control:focus,
-.custom-select:focus {
-    box-shadow: 0 0 0 0.2rem rgba(41, 41, 41, 0.2);
-}
-
-.form-control:focus,
-.custom-select:focus {
-    border-color: #777;
-}
-
-.btn-outline-primary {
-    color: var(--club-charcoal);
-    border-color: var(--club-charcoal);
-}
-
-.btn-outline-primary:hover,
-.btn-outline-primary:focus,
-.btn-outline-primary:not(:disabled):not(.disabled):active {
-    background: var(--club-charcoal);
-    border-color: var(--club-charcoal);
-    color: #fff;
-}
-
-.bg-primary,
-.badge-primary,
-.page-item.active .page-link,
-.nav-pills .nav-link.active {
-    background: var(--club-charcoal);
-    border-color: var(--club-charcoal);
-}
-
-.bg-primary {
-    background-color: var(--club-charcoal) !important;
-}
-
-.text-primary {
-    color: var(--club-charcoal) !important;
-}
-
-.map-container {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-}
-
-.map-container iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-.ninja {
-    display: none;
-}
-
+/* Style all font awesome icons */
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-}
-
-.fa:hover {
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
     opacity: 0.7;
-}
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* instagram */
+  .fa-instagram {
+    background: #bc2a8d;
+    color: white;
+  }
 
-.fa-facebook,
-.fa-instagram,
-.fa-twitter {
-    background: var(--club-charcoal);
-    color: #fff;
-}
+  .fa-twitter {
+    background: #2fa3d4;
+    color: white;
+  }
 
-.cookie-banner {
-    padding: 12px 16px;
-    background: var(--club-black);
-    color: #fff;
-}
-
-.cookie-banner a {
-    color: #fff;
-}
-
-.cookie-banner .btn-primary {
-    background: #fff;
-    border-color: #fff;
-    color: var(--club-black);
-}
-
-footer:not(.footer) {
-    padding: 28px 0;
-    background: var(--club-light-grey);
-}
-
-.home-page {
-    padding-bottom: 48px;
-}
-
-.home-hero {
-    margin: 24px 0 48px;
-    padding: 48px;
-    overflow: hidden;
-    border-radius: 16px;
-    background: var(--club-light-grey);
-}
-
-.home-hero h1 {
-    margin-bottom: 16px;
-    color: var(--club-black);
-    font-size: clamp(2.5rem, 5vw, 4.25rem);
-    line-height: 1.08;
-}
-
-.home-hero-copy {
-    max-width: 580px;
-    color: #555;
-    font-size: 1.15rem;
-}
-
-.home-eyebrow {
-    margin-bottom: 12px;
-    color: var(--club-grey);
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.13em;
-    text-transform: uppercase;
-}
-
-.home-hero-image {
-    width: 100%;
-    max-height: 360px;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
-.home-section {
-    margin-bottom: 48px;
-}
-
-.home-section-heading {
-    margin-bottom: 24px;
-}
-
-.sponsor-strip {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    align-items: center;
-    gap: 20px;
-    padding: 24px;
-    border: 1px solid var(--club-border);
-    border-radius: 12px;
-    background: #fff;
-}
-
-.sponsor-strip a {
-    display: flex;
-    min-height: 72px;
-    align-items: center;
-    justify-content: center;
-}
-
-.sponsor-strip img {
-    max-width: 100%;
-    max-height: 72px;
-    object-fit: contain;
-}
-
-.club-affiliation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    margin-top: 24px;
-    color: var(--club-grey);
-    text-align: center;
-}
-
-.club-affiliation img {
-    width: 120px;
-    max-width: 35%;
-}
-
-.pathway-card {
-    height: 100%;
-    overflow: hidden;
-    border: 1px solid var(--club-border);
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgb(0 0 0 / 6%);
-}
-
-.pathway-card .card-img-top {
-    height: 210px;
-    object-fit: cover;
-}
-
-.pathway-card .card-body {
-    padding: 24px;
-}
-
-.pathway-card .card-title {
-    margin-bottom: 12px;
-}
-
-.news-card {
-    min-height: 100%;
-    overflow: hidden;
-    border: 1px solid var(--club-border);
-    border-radius: 12px;
-    background: #fff;
-}
-
-@media (max-width: 767.98px) {
-    .home-hero {
-        margin-top: 16px;
-        padding: 28px 24px;
-    }
-
-    .home-hero-image {
-        margin-top: 28px;
-    }
-
-    .sponsor-strip {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 16px;
-        padding: 18px;
-    }
-
-    .pathway-card {
-        margin-bottom: 20px;
-    }
-}
+  .cookie-banner {
+    background-color: #34bdeb;
+    text-decoration-color: white;
+    color: white
+  }
