@@ -16,6 +16,13 @@ class SocialController extends Controller
         return view('social', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
+    public function teamUpdates()
+    {
+        $pageTitle = "Follow Our Teams";
+        $pageDescription = "Keep up with Sutton Squash Club team fixtures, results and club news.";
+        return view('teams', ['pageTitle' => $pageTitle, 'pageDescription' => $pageDescription]);
+    }
+
     public function boxleague()
     {
         $pageTitle = "Social Box Leagues";
