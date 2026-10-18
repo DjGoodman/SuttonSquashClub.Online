@@ -18,6 +18,27 @@ class AboutController extends Controller
         return view('about', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
+    public function committee()
+    {
+        $pageTitle = "Committee";
+        $pageDescription = "Meet the committee members of Sutton Squash Club.";
+        $committeeMembers = [
+            ['name' => 'Andy Hay', 'role' => 'Head Coach and Junior Lead'],
+            ['name' => 'Daniel Goodman', 'role' => 'Chair, Coach, 2nd+4th team captain'],
+            ['name' => 'Dan Mee', 'role' => 'Social Secretary, Box Leagues'],
+            ['name' => 'Sam Blacknell', 'role' => '1st Team Captain'],
+            ['name' => 'Stephen Townsend', 'role' => '3rd team captain'],
+            ['name' => 'Max Lewis', 'role' => 'Treasurer'],
+            ['name' => 'Jono Wright', 'role' => 'Secretary'],
+        ];
+
+        return view('committee', [
+            'pageTitle' => $pageTitle,
+            'pageDescription' => $pageDescription,
+            'committeeMembers' => $committeeMembers,
+        ]);
+    }
+
     public function calendar()
     {
         $pageTitle = "Club Calendar";
