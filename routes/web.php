@@ -43,6 +43,8 @@ Route::get('/social', [SocialController::class, 'index']);
 Route::get('/social/boxleague', [SocialController::class, 'boxleague']);
 Route::get('/boxleague', [SocialController::class, 'boxleague']);
 Route::get('/boxleagueFAQ', [SocialController::class, 'boxleagueFAQ']);
+Route::get('/team-squash-faq', [SocialController::class, 'teamSquashFAQ']);
+Route::get('/teamSquashFAQ', [SocialController::class, 'teamSquashFAQ']);
 Route::get('/membership/join', [MembershipController::class, 'index']);
 Route::get('/membership', [MembershipController::class, 'index']);
 Route::get('/join', [MembershipController::class, 'index']);

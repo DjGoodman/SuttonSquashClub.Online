@@ -84,6 +84,7 @@
                         role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
                     <ul class="dropdown-menu" style="background-color: #34bdeb;" aria-labelledby="navbarDropdown">
                         <li class="dropdown-item"><a class="nav-link" href="/join">Join Us</a></li>
+                        <li class="dropdown-item"><a class="nav-link" href="/team-squash-faq">Team Squash FAQ</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/juniors">Juniors</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/boxleague">Sutton box Leagues</a>
                         </li>
