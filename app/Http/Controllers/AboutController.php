@@ -12,9 +12,7 @@ class AboutController extends Controller
     public function index()
     {
         $pageTitle = "About";
-        $pageDescription = "Find out about Sutton Squash club.
-        Sutton squash club is based at Lammas Leisure Centre in Sutton in Ashfield.
-        The club plays in the Nottinghamshire Squash League and is affilated with England Squash.";
+        $pageDescription = "Learn about Sutton Squash Club, where we play, how to get involved, and the most useful club pages for members and newcomers.";
         return view('about', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
