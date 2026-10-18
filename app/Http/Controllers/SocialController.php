@@ -44,6 +44,13 @@ class SocialController extends Controller
         return view('teamSquashFAQ', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
+    public function gettingStartedFAQ()
+    {
+        $pageTitle = "Getting Started FAQ";
+        $pageDescription = "How to start playing squash, join a box league, and book courts at Sutton Community Academy.";
+        return view('gettingStartedFAQ', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */

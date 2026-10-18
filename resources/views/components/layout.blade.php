@@ -75,6 +75,7 @@
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/sponsors">Sponsors</a></li>
                 <li class="nav-item"><a class="nav-link" href="/calendar">Calendar</a></li>
                 <li class="nav-item"><a class="nav-link" href="/membership/join">Memberships</a></li>
                 <li class="nav-item"><a class="nav-link" href="/social">Social</a></li>
@@ -84,6 +85,7 @@
                         role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
                     <ul class="dropdown-menu" style="background-color: #34bdeb;" aria-labelledby="navbarDropdown">
                         <li class="dropdown-item"><a class="nav-link" href="/join">Join Us</a></li>
+                        <li class="dropdown-item"><a class="nav-link" href="/getting-started">Getting Started FAQ</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/team-squash-faq">Team Squash FAQ</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/teams">Follow Our Teams</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/juniors">Juniors</a></li>
