@@ -32,6 +32,17 @@ class GettingStartedFaqTest extends TestCase
             ->assertSee('Getting Started FAQ');
     }
 
+    public function test_about_page_links_to_key_club_information_pages(): void
+    {
+        $this->get('/about')
+            ->assertOk()
+            ->assertSee('About Sutton Squash Club')
+            ->assertSee('href="/getting-started"')
+            ->assertSee('href="/team-squash-faq"')
+            ->assertSee('href="/findus"')
+            ->assertSee('Sutton Community Academy');
+    }
+
     public function test_social_sessions_do_not_advertise_a_free_first_session(): void
     {
         $this->get('/social')
