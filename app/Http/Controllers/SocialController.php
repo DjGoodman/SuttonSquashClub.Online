@@ -30,6 +30,13 @@ class SocialController extends Controller
         return view('boxleagueFAQ', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
+    public function teamSquashFAQ()
+    {
+        $pageTitle = "Team Squash FAQ";
+        $pageDescription = "Information about playing team squash for Sutton Squash Club";
+        return view('teamSquashFAQ', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */
