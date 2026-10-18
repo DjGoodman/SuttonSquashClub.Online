@@ -11,7 +11,7 @@
                     <div class="card ">
                         <div class="card-body">
                             <h2>Squash Sessions at Sutton Community Academy</h2>
-  <p>Join our friendly sessions during school term time! <strong>Your first session is FREE</strong>, and coaching is included.</p>
+  <p>Join our friendly, coached sessions during school term time.</p>
   
   <hr>
 
@@ -19,14 +19,14 @@
   <ul>
     <li><strong>When:</strong> Wednesdays (School Term Time)</li>
     <li><strong>Time:</strong> 7:00 PM &ndash; 8:20 PM</li>
-    <li><strong>Perks:</strong> Includes Coaching | <em>First Session Free</em></li>
+    <li><strong>Perks:</strong> Coaching included</li>
   </ul>
 
   <h3>Women’s Squash</h3>
   <ul>
     <li><strong>When:</strong> 1st &amp; 3rd Wednesday of the month (School Term Time)</li>
     <li><strong>Time:</strong> 6:15 PM &ndash; 7:00 PM</li>
-    <li><strong>Perks:</strong> Includes Coaching | <em>First Session Free</em></li>
+    <li><strong>Perks:</strong> Coaching included</li>
   </ul>
                         </div>
                     </div>
@@ -37,10 +37,8 @@
                                 class="fb-xfbml-parse-ignore"><a
                                     href="https://www.facebook.com/suttonsquash/videos/744355523821549/"></a>
                                 <p>Had another great club night last night.
-                                    We are always looking for new players so why not come and pick up a racket!
-                                    Try the first session completely free
-                                    Wednesday nights term time at 1900 at Sutton community
-                                    Academy
+                                    We are always looking for new players, so why not come and pick up a racket on
+                                    Wednesday nights during term time at 7:00 PM at Sutton Community Academy?
 
                                     #sport #squash #fun #beginner #fitness #free
                                     #community</p>Posted by <a href="https://www.facebook.com/suttonsquash">Sutton
