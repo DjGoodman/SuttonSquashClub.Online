@@ -46,7 +46,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicon/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicon/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('assets/img/favicon/site.webmanifest') }}">
-    <link rel="mask-icon" href="{{ asset('assets/img/favicon/safari-pinned-tab.svg') }}" color="#5bbad5">
+    <link rel="mask-icon" href="{{ asset('assets/img/favicon/safari-pinned-tab.svg') }}" color="#212529">
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon/favicon.ico') }}">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="{{ asset('assets/img/favicon/browserconfig.xml') }}">
@@ -62,7 +62,7 @@
 </head>
 
 <body>
-    <div class="navbar navbar-expand-lg navbar-dark" style="background-color: #34bdeb; color: white">
+    <div class="navbar navbar-expand-lg navbar-dark" style="background-color: #212529; color: white">
         <a class="navbar-brand" href="/">
             <img src="{{ asset('assets/img/logo-no-bg-w.png') }}" itemprop="logo" width="30" height="30"
                 class="d-inline-block align-top" alt="Sutton Squash Logo">
@@ -84,7 +84,7 @@
                 <li class="nav-item dropdown">
                     <a href="" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                         role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
-                    <ul class="dropdown-menu" style="background-color: #34bdeb;" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu" style="background-color: #212529;" aria-labelledby="navbarDropdown">
                         <li class="dropdown-item"><a class="nav-link" href="/join">Join Us</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/getting-started">Getting Started FAQ</a></li>
                         <li class="dropdown-item"><a class="nav-link" href="/team-squash-faq">Team Squash FAQ</a></li>

@@ -29,27 +29,90 @@
     opacity: 0.7;
   }
   
-  /* Set a specific color for each brand */
-  
+  /* Social icons share the site's dark grey */
+
   /* Facebook */
   .fa-facebook {
-    background: #3B5998;
+    background: #343a40;
     color: white;
   }
-  
+
   /* instagram */
   .fa-instagram {
-    background: #bc2a8d;
+    background: #343a40;
     color: white;
   }
 
   .fa-twitter {
-    background: #2fa3d4;
+    background: #343a40;
     color: white;
   }
 
   .cookie-banner {
-    background-color: #34bdeb;
+    background-color: #212529;
     text-decoration-color: white;
     color: white
+  }
+
+  /* Black and grey theme: override Bootstrap's default blue */
+  a,
+  .btn-link {
+    color: #212529;
+  }
+
+  a:hover,
+  .btn-link:hover {
+    color: #6c757d;
+  }
+
+  .navbar .dropdown-item:hover,
+  .navbar .dropdown-item:focus {
+    background-color: #343a40;
+  }
+
+  .btn-primary,
+  .btn-primary:disabled {
+    background-color: #212529;
+    border-color: #212529;
+    color: white;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #495057;
+    border-color: #495057;
+    color: white;
+  }
+
+  .btn-outline-primary {
+    color: #212529;
+    border-color: #212529;
+  }
+
+  .btn-outline-primary:hover,
+  .btn-outline-primary:not(:disabled):not(.disabled):active {
+    background-color: #212529;
+    border-color: #212529;
+    color: white;
+  }
+
+  .btn-primary:focus,
+  .btn-outline-primary:focus,
+  .form-control:focus {
+    border-color: #6c757d;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  }
+
+  /* Light buttons so they stand out on the dark cookie banner */
+  .cookie-banner .btn-primary {
+    background-color: white;
+    border-color: white;
+    color: #212529;
+  }
+
+  .cookie-banner .btn-primary:hover {
+    background-color: #dee2e6;
+    border-color: #dee2e6;
+    color: #212529;
   }
