@@ -51,6 +51,21 @@
                     </div>
                 </section>
             </div>
+
+            <div class="row">
+                <section class="card mb-4 w-100">
+                    <div class="card-body">
+                        <h2>How do I enter a tournament?</h2>
+                        <p>There are three main tournament organisers:</p>
+                        <ul>
+                            <li><a href="https://mtevents.org/" target="_blank" rel="noopener noreferrer">MT Events</a></li>
+                            <li><a href="https://www.matchpointsport.co.uk/" target="_blank" rel="noopener noreferrer">Matchpoint Sport</a></li>
+                            <li><a href="https://www.cmstringers.com/entry/" target="_blank" rel="noopener noreferrer">CM Stringers</a></li>
+                        </ul>
+                        <p>They run graded tournaments, which means you play in a grade (or bracket) based on your squash level, so your matches are against players of a similar standard. You play 3 or 4 matches whether you win or lose, and there are prizes for the winner and runner-up in each grade. The entry fee usually includes a tournament T-shirt too.</p>
+                    </div>
+                </section>
+            </div>
         </div>
     </x-slot>
 </x-layout>

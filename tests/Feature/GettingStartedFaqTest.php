@@ -21,6 +21,10 @@ class GettingStartedFaqTest extends TestCase
             ->assertSee('01623 980055')
             ->assertSee('my.schoolbookings.co.uk/users/sign_in')
             ->assertSee('contact@suttonsquash.club')
+            ->assertSee('How do I enter a tournament?')
+            ->assertSee('mtevents.org')
+            ->assertSee('matchpointsport.co.uk')
+            ->assertSee('cmstringers.com/entry/')
             ->assertDontSee('first session free');
     }
 
