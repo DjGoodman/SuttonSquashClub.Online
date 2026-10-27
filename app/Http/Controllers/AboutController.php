@@ -16,6 +16,13 @@ class AboutController extends Controller
         return view('about', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
     }
 
+    public function history()
+    {
+        $pageTitle = "Club History";
+        $pageDescription = "The story of Sutton Squash Club, from the opening of the Sutton Recreation Centre in 1977 to our return to The Stronghold at Sutton Community Academy.";
+        return view('history', ['pageTitle' => $pageTitle,'pageDescription' => $pageDescription]);
+    }
+
     public function committee()
     {
         $pageTitle = "Committee";

@@ -22,6 +22,10 @@
                                 and compete in local league fixtures while also running a relaxed social programme for members.
                             </p>
                             <p>
+                                Our story goes back to 1977. Read how the club grew, rebuilt and returned to The Stronghold on our
+                                <a href="/history">Club History</a> page.
+                            </p>
+                            <p>
                                 If you're new to squash, our <a href="/getting-started">Getting Started FAQ</a> is the best place to begin.
                                 If you want to find the venue, read our <a href="/findus">Find Us</a> page for directions and parking information.
                             </p>
@@ -40,6 +44,7 @@
                                 <li class="mb-2"><a href="/social">Club sessions and socials</a></li>
                                 <li class="mb-2"><a href="/boxleague">Sutton Box Leagues</a></li>
                                 <li class="mb-2"><a href="/membership/join">Membership information</a></li>
+                                <li class="mb-2"><a href="/history">Club history</a></li>
                                 <li class="mb-2"><a href="/committee">Committee</a></li>
                                 <li class="mb-2"><a href="/contact">Contact us</a></li>
                             </ul>

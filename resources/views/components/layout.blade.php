@@ -12,20 +12,33 @@
 
     <script type='application/ld+json'> 
 {
-  "@context": "http://www.schema.org",
-  "@type": "SportsTeam",
+  "@context": "https://schema.org",
+  "@type": "SportsClub",
   "name": "Sutton Squash Club",
-  "url": "SuttonSquash.club",
+  "url": "{{ url('/') }}",
   "logo": "{{ asset('assets/img/logo.jpg')}}",
-  "description": "Sutton Squash Club operates out of the Lammas Centre where we have two glass-backed squash courts.\nSunday night (18:20-20:20) is the club social night and open to all abilities.\nWednesday night (19:40-21:00) is team training.\nMeet fellow squash players and arrange squash matches to suit.\nJoin the team to play regular league matches across the county.\nWe currently have three teams competing in the Nottinghamshire squash league\nSutton Squash Club is Affiliated with England Squash.",
+  "image": "{{ asset('assets/img/logo.jpg')}}",
+  "email": "contact@suttonsquash.club",
+  "foundingDate": "1977",
+  "description": "Sutton Squash Club is a friendly squash club in Sutton-in-Ashfield, playing at Sutton Community Academy (The Stronghold).\nWednesday nights in school term time: junior coaching 18:20-19:00, women's coaching on the 1st and 3rd Wednesday of the month 18:15-19:00, and beginner-friendly club squash with coaching 19:00-20:20.\nWe have four squash teams and a Squash 57 team in the Nottinghamshire leagues, with home matches on Monday and Tuesday nights.\nNottinghamshire County Cup (B Grade) winners 2026.\nSutton Squash Club is affiliated with England Squash.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Lammas Leisure Centre, Lammas Road",
-    "addressLocality": "Sutton in Ashfield",
+    "streetAddress": "Sutton Community Academy, Market Place",
+    "addressLocality": "Sutton-in-Ashfield",
     "addressRegion": "Nottinghamshire",
-    "postalCode": " NG17 2AD",
-    "addressCountry": "United Kingdom"
-  }
+    "postalCode": "NG17 1AQ",
+    "addressCountry": "GB"
+  },
+  "memberOf": {
+    "@type": "SportsOrganization",
+    "name": "England Squash",
+    "url": "https://www.englandsquash.com"
+  },
+  "sameAs": [
+    "https://www.facebook.com/suttonsquash/",
+    "https://www.instagram.com/sutton_squash_club/",
+    "https://twitter.com/squash_sutton"
+  ]
 }
  </script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
